@@ -16,8 +16,23 @@
   --gray-400:#292C34;
   --gray-500:#16181D;
   --gray-600:#0D0E11;
+
+  --font-family:'Asap','Title lg';
+  --text-lg:bold 56px 120% var(--font-family);
+  --text-md:24px 120% var(--font-family);
+  --text-sm:16px 120% var(--font-family);
+
+  --font-family-secondary:'Inconsolata';
+  --subtitle:20px 120% var(--font-family-secondary);
+
+  --font-family-third:'maven pro';
+  --text-md:16px 140% var(--font-family-third);
+  --text-sm:14px 140% var(--font-family-third); 
+
 }
 
 body {
   background-color: var(--gray-600);
+  font-family: 'Maven Pro', sans-serif;
+  color: #f5f5f5;
 }
